@@ -25,7 +25,7 @@ int main(){
 	  } else { 
 	         printf("altezza?");
 	         scanf("%d",&h);
-	            if(h<100){
+	            if(h<=100){
 	            euro=0.00;                                                            //calcolo del prezzo in base all'altezza
 	               }else{
 	               	 if(h<140  &&  h>100){
