@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 /*Diego Gattari 
-3°INA
+3Â°INA
 29/11/2016
  numero perfetto
 Versione 2.0*/
@@ -31,13 +31,13 @@ int main(){
 		scanf("%d", &numero);
 	}while((numero<=numero1) || (numero>=numero2));                             
 	                                       
-	while(d<=(numero/2)) {                                  /*con questa condizione ripeto il ciclo  fin quando  il divisore non è la metà del numero  successivamente sommo il divisore alla somma dei divisori*/
+	while(d<=(numero/2)) {                                  /*con questa condizione ripeto il ciclo  fin quando  il divisore non Ã¨ la metÃ  del numero  successivamente sommo il divisore alla somma dei divisori*/
 		if((numero %2)==0) {	
 		somma=somma+d;
 		}
 	    d=d+1;	
 	}
-	if(somma==numero) {												/* se la somma dei divisori è uguale al numero allora  dico che è perfetto, altrimenti no*/													   
+	if(somma==numero) {												/* se la somma dei divisori Ã¨ uguale al numero allora  dico che Ã¨ perfetto, altrimenti no*/													   
 		printf("\nIl numero e' perfetto");
 		}else{
 			printf("\nIl numero non e' perfetto");
