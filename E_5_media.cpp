@@ -1,7 +1,7 @@
 /*
 autore= Diego Gattari
 classe= 3 IN A
-data= 30/11/2016
+data= 30/12/2016
 programma= Media
 ver: 1.0
 */
@@ -26,6 +26,6 @@ int main(){
 		i++;
 	}
 	media=somma/n;
-	printf("\n la media è di: %d",media);
+	printf("\n la media Ã¨ di: %d",media);
 	
 }
