@@ -23,9 +23,10 @@ int main(){
 				max=cent-1;
 			}
 		}
+		printf("\nil centro e' %d\n", cent);
 	}
 	if(trovato==1){
-		printf("il numero e' presente nell'array");
+		printf("il numero e' presente nell'array nella seguente posizione %d", cent);
 	}else{
 		printf("il numero non e' stato trovato nell'array");
 	}
