@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 int main(){
-	int scelta;//se è uguale a 0 esco
+	int scelta;//se Ã¨ uguale a 0 esco
 	char nome[256];//stringa
 	char copia[256];// per inserire la copia della stringa "nome"
 	int I;//contatore
